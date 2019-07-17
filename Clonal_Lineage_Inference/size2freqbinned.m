@@ -1,5 +1,5 @@
 function [Freq_binned, Freq_binned_rel, Bin_labels] = size2freqbinned(freqs,clonesizes,timepoints,vartype)
-%% CLONE-SIZES-TO-BINNED FREQUENCIES CONVERTER:
+%% CLONE-SIZE FREQUENCIES-TO-BINNED FREQUENCIES CONVERTER:
 % It computes the histogram counts or frequencies of clone sizes (binned in
 % powers of two) from the individual no. of basal cells per clone.
 
