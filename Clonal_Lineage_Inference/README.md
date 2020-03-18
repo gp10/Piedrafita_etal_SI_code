@@ -1,5 +1,5 @@
 # Clonal_Lineage_Inference
-Computational methods used for model parameter inference and for evaluating the goodness-of-fit of simulated vs. experimental clone sizes.
+Computational methods used to analyze proliferating-cell lineage fates. This set of tools is used for model parameter inference and for evaluating the goodness-of-fit of simulated vs. experimental clone sizes.
 
 ### Main scripts
 - **Analysis-modelParamFit-BasalCloneSizes.m** : main script used for assessing model goodness-of-fit on different data sets (the user can select an experimental clonal data set of interest and the code runs simulations of the SP or SC-CP model under specified parameter conditions, retrieving a log-Likelihood value and plotting fits on clone size distributions and average clone size over time).

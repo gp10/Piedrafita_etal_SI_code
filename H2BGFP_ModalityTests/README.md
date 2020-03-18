@@ -1,4 +1,6 @@
 # Multimodality tests of H2BGFP dilution data
+Set of tools to analyze multimodality of individual-cell H2BGFP intensity distributions.
+Proliferating cells dilute their H2BGFP content two-fold upon every cell divison. Multimodality should be indicative of distinct subpopulations of cells dividing at different rates, while unimodality conforms to the single-progenitor (SP) model paradigm.
 
 ## Getting started 
 
