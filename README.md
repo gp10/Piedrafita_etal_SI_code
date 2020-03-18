@@ -1,6 +1,8 @@
 # Piedrafita_etal_SI_code :: pCellDynasts
-Analyzing proliferating Cell Dynamics in squamous epithelial tissues
+Analyzing proliferating Cell Dynamics in squamous epithelial tissues.
+
 Computational methods used to unravel the paradigm of cell proliferation in squamous epithelial tissues. This set of methods can be potentially extended to disentangle proliferating cell hierarchies and the mode of cell renewal in other tissues.
+
 Check the original source for context details:
   > Piedrafita G, Kostiou V, Wabik A, Colom B, Fernandez-Antoran D, Herms A, Murai K, Hall BA, Jones PH (2020) A single-progenitor model as the unifying paradigm of epidermal and esophageal epithelial maintenance in mice. _Nat. Commun_ 11, 1429. https://doi.org/10.1038/s41467-020-15258-0
 
