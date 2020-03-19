@@ -28,5 +28,5 @@ Computational methods to estimate cell division rate & individual cell-cycle per
 - SelectModelParamVal.m : function used to call to specific tcc parameter sets.
 
 ### Requirements
-Python 3.6.5	(Spyder with IPython 6.4.0 was used)
-Matlab R2016b
+- Python 3.6.5	(Spyder with IPython 6.4.0 was used)
+- Matlab R2016b
