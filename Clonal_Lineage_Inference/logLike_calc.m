@@ -3,7 +3,7 @@ function [LogLike_t, LogLike] = logLike_calc(rfreqs,myPDF,timepoints)
 % PDF corresponds with the numerical outcome of the probability density
 % function for particular parameter values.
 
-% from Piedrafita et al, 2018
+% from Piedrafita et al, 2020
 
 %% Input:
 % rfreqs: cell array of clone size frequencies, with format {:,timepoints}

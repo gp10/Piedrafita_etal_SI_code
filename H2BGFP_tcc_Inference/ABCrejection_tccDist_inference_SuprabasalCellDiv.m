@@ -6,7 +6,7 @@ function [OK_mu,OK_tlagShed,OK_GamShapeShed] = ABCrejection_tccDist_inference_Su
 % Monte-Carlo simulations of suprabasal cell replacement by basal cycling
 % progenitors according to SP model).
 
-% from Piedrafita et al, 2018
+% from Piedrafita et al, 2020
 
 %% Input:
 % rtime: horizontal vector containing desired time points (expressed in weeks)

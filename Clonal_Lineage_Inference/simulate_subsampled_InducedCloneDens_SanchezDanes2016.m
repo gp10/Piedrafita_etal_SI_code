@@ -7,7 +7,7 @@ function [sampled_avgNClones, sampled_stdNClones] = simulate_subsampled_InducedC
 % post-induction, ultimately retrieving descriptive statistics on clonal
 % density values across simulated mice and time.
 
-% from Piedrafita et al, 2018
+% from Piedrafita et al, 2020
 
 %% Input:
 % CloneSizes: mxn matrix of clone sizes, containing the number of basal cells of m clones at n time points

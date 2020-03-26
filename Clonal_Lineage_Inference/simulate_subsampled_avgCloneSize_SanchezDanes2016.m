@@ -4,7 +4,7 @@ function [sampled_avgCloneSize, sampled_semCloneSize] = simulate_subsampled_avgC
 % at any given time point, the number of subsampled clones being determined
 % previously by the user.
 
-% from Piedrafita et al, 2018
+% from Piedrafita et al, 2020
 
 %% Input:
 % CloneSizes: mxn matrix of clone sizes, containing the number of basal cells of m clones at n time points

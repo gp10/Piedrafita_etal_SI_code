@@ -7,7 +7,7 @@ function [f]=ODEs_2xSC_CellProlif_EXPtcc(t,x,lambdaS1,lambdaS2,gammaS2,mu)
 % This code implements default exponentially-distributed waiting time
 % periods for all processes.
 
-% from Piedrafita et al, 2018
+% from Piedrafita et al, 2020
 
 %% Input:
 % x: column vector containing the fraction of cell types found with each particular No. of division rounds.

@@ -4,7 +4,7 @@ function [nx_basal,ntime,X,Tini,Tend,AllNoDiv] = MonteCarloSimulator_SCCP_BasalC
 % proliferating cell. It allows to consider gamma-distributed cell cycle periods.
 % This code saves historical record of cell type and proliferation status.
 
-% from Piedrafita et al, 2018
+% from Piedrafita et al, 2020
 
 %% Input:
 % rtime: horizontal vector containing desired time points (expressed in weeks)

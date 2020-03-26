@@ -9,7 +9,7 @@ function [nx_basal,nx_total,nx,ntime] = MonteCarloSimulator_SP_TotalCloneDynamic
 % (i.e. the transition of differentiated cells through suprabasal layers 
 % takes a minimum time).
 
-% from Piedrafita et al, 2018
+% from Piedrafita et al, 2020
 
 %% Input:
 % rtime: horizontal vector containing desired time points (expressed in weeks)

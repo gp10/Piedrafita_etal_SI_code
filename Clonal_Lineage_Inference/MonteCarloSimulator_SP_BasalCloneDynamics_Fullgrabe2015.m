@@ -4,7 +4,7 @@ function [nx_basal,ntime] = MonteCarloSimulator_SP_BasalCloneDynamics_Fullgrabe2
 % consisting of multiple (progenitor and/or differentiating) labelled cells.
 % It allows to consider gamma-distributed cell cycle periods.
 
-% from Piedrafita et al, 2018
+% from Piedrafita et al, 2020
 
 %% Input:
 % rtime: horizontal vector containing desired time points (expressed in weeks)

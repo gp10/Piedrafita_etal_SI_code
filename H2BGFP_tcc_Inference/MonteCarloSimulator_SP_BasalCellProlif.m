@@ -6,7 +6,7 @@ function [NoDiv_BL] = MonteCarloSimulator_SP_BasalCellProlif(rtime,lambda,indiv,
 % upon each division).
 % It allows to consider gamma-distributed cell cycle periods.
 
-% from Piedrafita et al, 2018
+% from Piedrafita et al, 2020
 
 %% Input:
 % rtime: horizontal vector containing desired time points (expressed in weeks)

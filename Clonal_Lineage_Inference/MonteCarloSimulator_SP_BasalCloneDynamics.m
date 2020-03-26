@@ -3,7 +3,7 @@ function [nx_basal,ntime] = MonteCarloSimulator_SP_BasalCloneDynamics(rtime,lamb
 % Basal clone sizes are simulated over time starting from a single labelled
 % progenitor. It allows to consider gamma-distributed cell cycle periods.
 
-% from Piedrafita et al, 2018
+% from Piedrafita et al, 2020
 
 %% Input:
 % rtime: horizontal vector containing desired time points (expressed in weeks)

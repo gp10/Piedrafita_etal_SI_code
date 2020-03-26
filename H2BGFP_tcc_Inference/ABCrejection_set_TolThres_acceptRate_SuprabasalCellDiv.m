@@ -8,7 +8,7 @@ function [pdist_all] = ABCrejection_set_TolThres_acceptRate_SuprabasalCellDiv(rt
 % simulations of suprabasal cell replacement by basal cycling progenitors
 % according to SP model) and the same distance metric is preserved.
 
-% from Piedrafita et al, 2018
+% from Piedrafita et al, 2020
 
 %% Input:
 % rtime: horizontal vector containing desired time points (expressed in weeks)

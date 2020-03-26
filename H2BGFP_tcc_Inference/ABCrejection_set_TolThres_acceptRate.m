@@ -7,7 +7,7 @@ function [pdist_all] = ABCrejection_set_TolThres_acceptRate(rtime,rnlog2_H2BGFP_
 % in the ABC algorithm (coming from Monte-Carlo simulations of basal-cell
 % turnover according to SP model) and the same distance metric is preserved.
 
-% from Piedrafita et al, 2018
+% from Piedrafita et al, 2020
 
 %% Input:
 % rtime: horizontal vector containing desired time points (expressed in weeks)

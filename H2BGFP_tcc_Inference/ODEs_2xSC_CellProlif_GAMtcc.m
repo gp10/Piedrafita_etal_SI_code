@@ -10,7 +10,7 @@ function [f]=ODEs_2xSC_CellProlif_GAMtcc(t,x,lambdaS1,lambdaS2,gammaS2,mu)
 % is done by replacing these Poisson processes by two-step processes
 % involving two subpopulations, each showing half the mean waiting time.
 
-% from Piedrafita et al, 2018
+% from Piedrafita et al, 2020
 
 %% Input:
 % x: column vector containing the fraction of cell types found with each particular No. of division rounds.

@@ -5,7 +5,7 @@ function [Idist] = MonteCarloSimulator_SP_BasalCellProlif_H2BGFPdil(rtime,It0,la
 % of a given sibling- is considered upon each division).
 % It allows to consider gamma-distributed cell cycle periods.
 
-% from Piedrafita et al, 2018
+% from Piedrafita et al, 2020
 
 %% Input:
 % rtime: horizontal vector containing desired time points (expressed in weeks) - the 1st is taken as initial simulation time

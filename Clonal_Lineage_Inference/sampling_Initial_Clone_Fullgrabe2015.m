@@ -5,7 +5,7 @@ function [x,tini,tend,CloneSizePicked] = sampling_Initial_Clone_Fullgrabe2015(in
 % experiments. A random cellular composition is assigned consistent with
 % the global proportion of progenitor cells in the basal layer (rho).
 
-% from Piedrafita et al, 2018
+% from Piedrafita et al, 2020
 
 %% Input:
 % iniCloneSizes: vector of [NClones,1] shape containing initial experimental clone sizes

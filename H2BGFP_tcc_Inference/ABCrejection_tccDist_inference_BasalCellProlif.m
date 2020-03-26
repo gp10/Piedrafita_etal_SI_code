@@ -5,7 +5,7 @@ function [OK_lambda,OK_tlag,OK_GamShape] = ABCrejection_tccDist_inference_BasalC
 % rounds with inferred ones (coming from Monte-Carlo simulations of
 % basal-cell turnover according to SP model).
 
-% from Piedrafita et al, 2018
+% from Piedrafita et al, 2020
 
 %% Input:
 % rtime: horizontal vector containing desired time points (expressed in weeks)

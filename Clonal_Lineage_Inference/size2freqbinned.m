@@ -3,7 +3,7 @@ function [Freq_binned, Freq_binned_rel, Bin_labels] = size2freqbinned(freqs,clon
 % It computes the histogram counts or frequencies of clone sizes (binned in
 % powers of two) from the individual no. of basal cells per clone.
 
-% from Piedrafita et al, 2018
+% from Piedrafita et al, 2020
 
 %% Input:
 % freqs: cell array {:,timepoints} or matrix [:,timepoints] of clone size frequencies. Each row r contains absolute number of clones with r-1 basal cells

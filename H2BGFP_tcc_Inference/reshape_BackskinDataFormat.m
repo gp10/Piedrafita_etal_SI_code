@@ -6,7 +6,7 @@ function [new_rtime,new_nmice,new_H2BGFP,new_FieldView,new_log2_H2BGFP,new_nlog2
 % collection time, merging results from the different experiments whenever
 % is appropriate.
 
-% from Piedrafita et al, 2018
+% from Piedrafita et al, 2020
 
 %% Input:
 % rtime: horizontal vector containing experimental time points (expressed in weeks); contains repeats as they stand for 3 different experiments

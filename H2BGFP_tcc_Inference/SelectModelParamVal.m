@@ -3,7 +3,7 @@ function [ParamVal] = SelectModelParamVal(selectModelInferMode,selectDataSet)
 % A collection of parameter values obtained from different sources is
 % presented. The function helps selecting the specific set of interest.
 
-% from Piedrafita et al, 2018
+% from Piedrafita et al, 2020
 
 %% Input:
 % selectModelInferMode: string; source for parameter values, whether ABC (inference methods in this work) or original publications/ad-hoc
@@ -123,7 +123,7 @@ elseif strcmpi('Original/Ad-hoc',selectModelInferMode)
             ParamVal.gammaS2 = ParamVal.lambdaS2; % to satisfy homeostasis
             ParamVal.labelS1frac = 0.74;
             ParamVal.densSL_vs_densBL = 0.78; % experimentally determined
-            ParamVal.mu = (ParamVal.lambdaS1*ParamVal.labelS1frac/(1+ParamVal.uS1) + ParamVal.lambdaS2*(1-ParamVal.labelS1frac)*0.5)/ParamVal.densSL_vs_densBL; % to satisfy homeostasis (pg.19 of our Suppl.Methods)
+            ParamVal.mu = (ParamVal.lambdaS1*ParamVal.labelS1frac/(1+ParamVal.uS1) + ParamVal.lambdaS2*(1-ParamVal.labelS1frac)*0.5)/ParamVal.densSL_vs_densBL; % to satisfy homeostasis (pg.32 of our Suppl.Methods)
             ParamVal.tlagDivS1 = 0.5/7; % reasonable assumption
             ParamVal.GamShapeDivS1 = 8; % GAM division time
             ParamVal.tlagStrS1 = 0;
@@ -146,7 +146,7 @@ elseif strcmpi('Original/Ad-hoc',selectModelInferMode)
             ParamVal.gammaS2 = ParamVal.lambdaS2; % to satisfy homeostasis
             ParamVal.labelS1frac = 0.70;
             ParamVal.densSL_vs_densBL = 0.78; % experimentally determined
-            ParamVal.mu = (ParamVal.lambdaS1*ParamVal.labelS1frac/(1+ParamVal.uS1) + ParamVal.lambdaS2*(1-ParamVal.labelS1frac)*0.5)/ParamVal.densSL_vs_densBL; % to satisfy homeostasis (pg.19 of our Suppl.Methods)
+            ParamVal.mu = (ParamVal.lambdaS1*ParamVal.labelS1frac/(1+ParamVal.uS1) + ParamVal.lambdaS2*(1-ParamVal.labelS1frac)*0.5)/ParamVal.densSL_vs_densBL; % to satisfy homeostasis (pg.32 of our Suppl.Methods)
             ParamVal.tlagDivS1 = 0;
             ParamVal.GamShapeDivS1 = 2;
             ParamVal.tlagStrS1 = 0;
@@ -159,7 +159,7 @@ elseif strcmpi('Original/Ad-hoc',selectModelInferMode)
             ParamVal.GamShapeShed = 2;
             
         case 6
-            %% PARAMETER VALUES INFERRED FOR Sada et al's BEST 2xSC MODEL FIT: Back_Sada2016_dataset (pg.20 of our Suppl.Methods)
+            %% PARAMETER VALUES INFERRED FOR Sada et al's BEST 2xSC MODEL FIT: Back_Sada2016_dataset (pg.33 of our Suppl.Methods)
             % (these parameter values account for the probability terms ignored in Sada et al's equations)
             disp('2xSC model (semi-coupled version) from Sada et al 2016')
             ParamVal.modelType = '2xSC'
@@ -170,7 +170,7 @@ elseif strcmpi('Original/Ad-hoc',selectModelInferMode)
             ParamVal.gammaS2 = ParamVal.lambdaS2; % to satisfy homeostasis
             ParamVal.labelS1frac = 0.70;
             ParamVal.densSL_vs_densBL = 0.78; % experimentally determined
-            ParamVal.mu = (ParamVal.lambdaS1*ParamVal.labelS1frac + ParamVal.lambdaS2*(1-ParamVal.labelS1frac))/ParamVal.densSL_vs_densBL; % miscalculating homeostasis requirement (see pg.19-20 of our Suppl.Methods)
+            ParamVal.mu = (ParamVal.lambdaS1*ParamVal.labelS1frac + ParamVal.lambdaS2*(1-ParamVal.labelS1frac))/ParamVal.densSL_vs_densBL; % miscalculating homeostasis requirement (see pg.32-33 of our Suppl.Methods)
             ParamVal.tlagDivS1 = 0;
             ParamVal.GamShapeDivS1 = 2;
             ParamVal.tlagStrS1 = 0;

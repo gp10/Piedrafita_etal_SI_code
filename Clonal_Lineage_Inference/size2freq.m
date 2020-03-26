@@ -3,7 +3,7 @@ function [Freq, Freq_rel] = size2freq(clonesizes,timepoints,vartype,clonesizes_r
 % It computes the histogram counts or clone size frequencies from the
 % individual no. of basal cells per clone
 
-% from Piedrafita et al, 2018
+% from Piedrafita et al, 2020
 
 %% Input:
 % clonesizes: cell array {:,timepoints} or matrix [:,timepoints] containing clone sizes

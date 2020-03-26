@@ -9,7 +9,7 @@ function [avgNCells, stdNCells] = infer_TotalLabelledCells_trend(avgCloneSize,se
 % R = A * B      | A=mean(CloneSize) ; B=NClones
 % dR = dA*B + dB*A + dA*dB      | dA=sem(CloneSize) ; dB=std(NClones)
 
-% from Piedrafita et al, 2018
+% from Piedrafita et al, 2020
 
 %% Input:
 % avgCloneSize: row vector containing average clone size values at different time points

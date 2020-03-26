@@ -3,7 +3,7 @@ function [ParamVal] = SelectModelParamVal(selectModelInferMode,selectDataSet)
 % A collection of parameter values obtained from different sources is
 % presented. The function helps selecting the specific set of interest.
 
-% from Piedrafita et al, 2018
+% from Piedrafita et al, 2020
 
 %% Input:
 % selectModelInferMode: string; source for parameter values, whether MLE (this work) or original publications
